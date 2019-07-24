@@ -1,8 +1,8 @@
 'use strict';
 
 let config = {
-  USERNAME: process.env.TEST_USERNAME || '',
-  PASSWORD: process.env.TEST_PASSWORD || '',
+  USERNAME: 'pshah_manager',
+  PASSWORD: 'topcoder123',
   TIMEOUT: 20000
 };
 

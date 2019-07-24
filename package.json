@@ -11,6 +11,10 @@
     "test": "atom --test --timeout 60 ./spec/*.js"
   },
   "dependencies": {
+    "archiver": "^3.0.3",
+    "form-data": "^2.5.0",
+    "ignore": "^5.1.2",
+    "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.14",
     "request": "^2.83.0",
     "request-promise": "^4.2.2",
@@ -30,5 +34,8 @@
   },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
+  },
+  "devDependencies": {
+    "nock": "^10.0.6"
   }
 }
