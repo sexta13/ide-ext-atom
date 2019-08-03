@@ -15,6 +15,7 @@ This package is meant to closely integrate the Topcoder platform with [Atom](htt
 4.  Ignore any errors about missing modules. Run `npm install` in the folder and then reload to verify that the errors no longer occur
 5.  You should now be able to use the package by opening the command palette and typing `Topcoder` to view the list of avaialble commands
 
+
 ## Development Mode
 
 You can run the Atom with Dev mode by
@@ -78,3 +79,8 @@ Press "shift-cmd/ctrl-p" to show Command Palette
    1. Run `apm test` in `topcoder-workflow` folder.
    2. Run `npm test` in `topcoder-workflow` folder.
    3. Run `View -> Developer -> Run Package Specs`, within Atom window.
+
+## Linting
+
+The project uses [StandardJS](https://standardjs.com/index.html) as a linter.
+In order to run the linter use `npm run lint`. There's also a command to automatically fix linting problems: `npm run lint:fix`.
